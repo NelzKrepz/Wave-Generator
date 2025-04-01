@@ -222,6 +222,6 @@ class Note {
 
 // Sine
 (() => {
-	new SineOscillator(new Note("E1").freq, 0.3).exportWav("sine.wav");
+	new TriangleOscillator(new Note("E2").freq, 0.3).exportWav("triangle.wav");
 })();
 console.log("Done!");
